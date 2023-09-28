@@ -12,7 +12,7 @@ It uses GraphQL CodeGen to type all of the requests comming from Dato automatica
 
 3. Let DatoCMS set everything up for you clicking this button below:
 
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=marcelofinamorvieira%2Fsaas-starter%3Amain)
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=janjos96/datocms-website-no-i18n)
 
 ### Local setup
 
