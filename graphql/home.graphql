@@ -1,0 +1,22 @@
+query Home {
+  home {
+    id
+    label
+    gallery {
+      id
+      responsiveImage {
+        ...DatoImage_responsiveImage
+      }
+    }
+  }
+}
+
+fragment DatoImage_responsiveImage on ResponsiveImage {
+  src
+  srcSet
+  base64
+  width
+  height
+  alt
+  title
+}

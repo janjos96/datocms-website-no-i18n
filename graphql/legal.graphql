@@ -1,0 +1,7 @@
+query Legal($slug: String) {
+  legalPage(filter: { slug: { eq: $slug } }) {
+    content {
+      value
+    }
+  }
+}

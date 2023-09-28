@@ -1,0 +1,28 @@
+query Footer {
+  layout {
+    footerSubtitle
+    footerLogo {
+      url
+      height
+      width
+    }
+    socialMediaLinks {
+      url
+      name
+      id
+      icon {
+        url
+        height
+        width
+      }
+    }
+    footerLinks {
+      ... on LegalPageRecord {
+        id
+        slug
+        title
+        id
+      }
+    }
+  }
+}
