@@ -1,10 +1,9 @@
 {
-  "name": "Company Website",
-  "description": "A Company Website Demonstration using DatoCMS",
+  "name": "Website Starter no i18n",
+  "description": "Madebysea template for website without internationalization",
   "previewImage": "https://www.datocms-assets.com/104169/1692326020-demopreview.png",
-  "livePreviewUrl": "https://company-website-demo-preview.vercel.app/",
-  "datocmsProjectId": "105705",
-  "deploymentType": "static",
+  "datocmsProjectId": "106890",
+  "deploymentType": "vercel",
   "environmentVariables": {
     "DATOCMS_READONLY_API_TOKEN": {
       "type": "datocmsAccessToken",
